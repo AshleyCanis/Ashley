@@ -1,0 +1,12 @@
+local args = {
+    [1] = "RolePlayBio",
+    [2] = "\240\159\145\190 Scrpit Ashley Canis \240\159\145\190"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+wait(0.1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "  تم تفعيل سكربت آشلي";
+    Text = "تم تفعيل بنجاح"; -- ARAB TEAM
+    Duration = 5;
+})
